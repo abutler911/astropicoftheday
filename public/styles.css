@@ -7,26 +7,23 @@ body {
 }
 
 header {
-  background-color: #1e3c72;
+  background-color: #0066b2;
   color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
+.container {
+  max-width: 1200px;
+}
 #date {
   font-size: 1rem;
   text-align: center;
   border: none;
   padding: 10px;
-  background: linear-gradient(to right, #1e3c72, #2a5298);
+  background-color: #0066b2;
   color: #fff;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin-top: 10px;
-}
-
-#date:focus {
-  outline: none;
-  box-shadow: 0 0 10px #2a5298;
+  width: 100%;
 }
 
 #copyRight {
@@ -41,8 +38,8 @@ header {
   border: none;
   padding: 10px 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(255, 165, 0, 0.6);
   transition: transform 0.2s, box-shadow 0.3s;
+  width: 100%;
 }
 
 #imageBtn:hover {
@@ -67,7 +64,7 @@ img {
   text-align: justify;
 }
 footer {
-  background-color: #1e3c72;
+  background-color: #0066b2;
   color: white;
   padding: 10px;
   font-size: 0.6rem;

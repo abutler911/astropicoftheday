@@ -1,0 +1,74 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+header {
+  background-color: #1e3c72;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#date {
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  padding: 10px;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+}
+
+#date:focus {
+  outline: none;
+  box-shadow: 0 0 10px #2a5298;
+}
+
+#copyRight {
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 0.8rem;
+}
+#imageBtn {
+  background-color: #ff8008;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 165, 0, 0.6);
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+#imageBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.6);
+}
+
+img {
+  max-width: 100%;
+}
+
+.explanation-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+#explanation {
+  font-size: 1rem;
+  text-align: justify;
+}
+footer {
+  background-color: #1e3c72;
+  color: white;
+  padding: 10px;
+  font-size: 0.6rem;
+}
